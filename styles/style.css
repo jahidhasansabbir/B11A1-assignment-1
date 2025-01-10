@@ -63,6 +63,11 @@ body {
     border: none;
 }
 
+.hero-text button:hover {
+    background-color: #FFF;
+    color: #006A50;
+}
+
 /* Vision section styles */
 #vision {
     margin-bottom: 32px;
@@ -121,38 +126,50 @@ body {
     font-size: 13px;
     font-weight: 600;
 }
-/* Quote section style */
-#quote{
-    border-radius: 13px;
-border: 1px solid rgba(14, 14, 14, 0.15);
-background: #FFF;
-padding: 38px 19px;
+
+.card button:hover {
+    background: #FFF;
+    color: #5490F5;
 }
-.quote-img{
+
+/* Quote section style */
+#quote {
+    border-radius: 13px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    padding: 38px 19px;
+}
+
+.quote-img {
     width: 52px;
     height: 52px;
 }
-.quote-img img{
+
+.quote-img img {
     width: 100%;
 }
-#quote  .qoute-description{
+
+#quote .qoute-description {
     color: rgba(14, 14, 14, 0.80);
     font-size: 13px;
     font-weight: 400;
     margin-top: -32px;
     margin-bottom: 12px;
 }
-#quote h4{
+
+#quote h4 {
     color: rgba(14, 14, 14, 0.80);
-font-size: 17px;
-font-weight: 600;
-margin-bottom: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 4px;
 }
-.profession{
+
+.profession {
     color: rgba(14, 14, 14, 0.60);
-font-size: 13px;
-font-weight: 400;
+    font-size: 13px;
+    font-weight: 400;
 }
+
 /* Recent news section style */
 #news h2 {
     color: #0E0E0E;
@@ -220,7 +237,10 @@ font-weight: 400;
     font-size: 14px;
     font-weight: 600;
 }
-
+.news-text button:hover{
+    background: #C6E4D6;
+    color: #006A50;
+}
 .news-img {
     width: 326px;
     height: 244px;
@@ -266,7 +286,9 @@ font-weight: 400;
     background: #FFF;
     padding: 32px;
 }
-
+.amount:hover{
+    background-color: #548ff543;
+}
 .amount h4 {
     color: rgba(14, 14, 14, 0.80);
     font-size: 32px;
@@ -300,7 +322,10 @@ font-weight: 400;
     background: #006A50;
     padding: 13px 27px;
 }
-
+.donate-btn:hover{
+    background: #FFF;
+    color:#006A50;
+}
 /* Newsletter section styles */
 #newsletter {
     background-color: #C6E4D6;
@@ -348,5 +373,10 @@ font-weight: 400;
     font-size: 14px;
     font-weight: 600;
     border: none;
-    margin-left:-3px ;
+    margin-left: -5px;
+}
+.newsletter-input button:hover{
+    color: #fefefe;
+    background: #006a5063;
+
 }
