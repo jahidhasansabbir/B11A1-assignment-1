@@ -202,15 +202,16 @@ body {
 }
 
 /* Donate section style */
-#Donate{
+#Donate {
     margin: 80px 70px;
 }
+
 #Donate h2 {
     color: #0E0E0E;
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-   margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 #Donate p {
@@ -220,12 +221,14 @@ body {
     font-weight: 400;
     margin-bottom: 32px;
 }
-.amount-container{
+
+.amount-container {
     display: flex;
     justify-content: space-between;
     margin: auto 83.2;
     margin-bottom: 32px;
 }
+
 .amount {
     border-radius: 13px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -244,16 +247,16 @@ body {
     margin: 0 30px;
     margin-bottom: 32px;
 }
-.amount-input input{
+
+.amount-input input {
     padding: 16px 32px;
     border: none;
     text-align: center;
-    /* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
     background: #FFF;
     width: 91%;
     color: rgba(14, 14, 14, 0.30);
-font-size: 14px;
-font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
 
 }
 
@@ -265,4 +268,53 @@ font-weight: 400;
     border: 1px solid rgba(14, 14, 14, 0.10);
     background: #006A50;
     padding: 13px 27px;
+}
+
+#newsletter {
+    background-color: #C6E4D6;
+    padding: 64px 80px;
+    border-radius: 19px;
+    margin-bottom: 80px;
+}
+
+#newsletter h2 {
+    color: #0E0E0E;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#newsletter p {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.newsletter-input {
+    margin-bottom: 24px;
+}
+
+.newsletter-input input {
+    border-radius: 6px 0px 0px 6px;
+    background: #FFF;
+    padding: 13px 27px;
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    width: 480px;
+}
+
+.newsletter-input button {
+    border-radius: 0px 6px 6px 0px;
+    background: #006A50;
+    padding: 13px 27px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    margin-left:-3px ;
 }
