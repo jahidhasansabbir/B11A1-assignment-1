@@ -13,6 +13,30 @@ body {
 main{
     margin: 50px 128px;
 }
+/* Navbar styles */
+nav{
+    margin: 24px 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2{
+    color: #0E0E0E;
+font-size: 26px;
+font-weight: 700;
+}
+nav button{
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #006A50;
+    color: #006A50;
+font-size: 18px;
+font-weight: 600;
+}
+nav button:hover{
+    color:#ffffff;
+    background: #006A50;
+}
 /* Hero section styles */
 #hero {
     background-color: #C6E4D6;
