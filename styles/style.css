@@ -327,11 +327,17 @@ nav button:hover{
 .amount {
     border-radius: 13px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    background: #FFF;
     padding: 32px;
+    background: #FFF;
+}
+.amount-1{
+    background: #C6E4D6;
 }
 .amount:hover{
-    background-color: #548ff543;
+    background-color: #C6E4D6;
+}
+.amount-1:hover{
+    background: #FFF;
 }
 .amount h4 {
     color: rgba(14, 14, 14, 0.80);
