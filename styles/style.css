@@ -7,17 +7,17 @@
 }
 
 body {
-    margin: 50px 128px;
-    background-color: #F1F1F3;
     font-family: "Fira Sans";
+    background-color: #F1F1F3;
 }
-
+main{
+    margin: 50px 128px;
+}
 /* Hero section styles */
 #hero {
     background-color: #C6E4D6;
     padding: 64px 80px;
     border-radius: 19px;
-    height: 320px;
     display: flex;
     gap: 19px;
     justify-content: space-between;
@@ -71,6 +71,7 @@ body {
 /* Vision section styles */
 #vision {
     margin-bottom: 32px;
+    
 }
 
 #vision h2 {
@@ -98,17 +99,20 @@ body {
     border-radius: 13px;
     background: rgba(84, 144, 245, 0.20);
     padding: 25px;
+    width: 328px;
 }
 
 .card img {
     width: 52px;
     height: 52px;
+    margin-bottom: 24px;
 }
 
 .card h4 {
     color: rgba(14, 14, 14, 0.80);
     font-size: 16px;
     font-weight: 700;
+    margin-bottom: 12px;
 }
 
 .card p {
@@ -119,25 +123,40 @@ body {
 
 .card button {
     border-radius: 6px;
-    background: #5490F5;
     padding: 9px 13px;
     border: none;
-    color: #FFF;
     font-size: 13px;
     font-weight: 600;
+    color: #FFF;
 }
-
-.card button:hover {
+.btn{
+    background: #5490F5;
+}
+.btn-2{
+    background:#006A50;
+}
+.btn-3{
+    background: #FFC239;
+}
+.card .btn:hover {
     background: #FFF;
     color: #5490F5;
 }
-
+.btn-2:hover{
+    background: #FFF;
+    color:#006A50;
+}
+.btn-3:hover{
+    background: white;
+    color:#FFC239;
+}
 /* Quote section style */
 #quote {
     border-radius: 13px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: #FFF;
-    padding: 38px 19px;
+    padding: 25px 24px 48px 24px;
+    margin-bottom: 80px;
 }
 
 .quote-img {
@@ -171,6 +190,7 @@ body {
 }
 
 /* Recent news section style */
+
 #news h2 {
     color: #0E0E0E;
     font-size: 32px;
@@ -198,7 +218,7 @@ body {
 }
 
 .news-text {
-    width: 595px;
+    width: 795px;
 }
 
 .news-text h4 {
@@ -380,3 +400,32 @@ body {
     background: #006a5063;
 
 }
+/* Footer section styles */
+footer{
+    background: #FFF;
+    padding: 50px 0px;
+}
+footer h2{
+    color: #0E0E0E;
+font-size: 26px;
+font-weight: 700;
+text-align: center;
+}
+hr {
+    height: 1px;
+    background-color: rgba(14, 14, 14, 0.1);
+    border: 0px;
+    margin: 32px auto;
+    width: 897px;
+  }
+  .socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+  }
+  footer img{
+    width: 24px ;
+    height: 24px;
+
+  }
